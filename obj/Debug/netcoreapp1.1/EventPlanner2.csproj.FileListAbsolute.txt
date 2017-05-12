@@ -1,0 +1,20 @@
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.deps.json
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.runtimeconfig.json
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.runtimeconfig.dev.json
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\obj\Debug\netcoreapp1.1\EventPlanner2.csprojResolveAssemblyReference.cache
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\obj\Debug\netcoreapp1.1\EventPlanner2.AssemblyInfo.cs
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.dll
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.pdb
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\obj\Debug\netcoreapp1.1\EventPlanner2.dll
+c:\users\priscilla\documents\visual studio 2017\Projects\EventPlanner2\EventPlanner2\obj\Debug\netcoreapp1.1\EventPlanner2.pdb
+C:\Users\Priscilla\Desktop\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.deps.json
+C:\Users\Priscilla\Desktop\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.runtimeconfig.json
+C:\Users\Priscilla\Desktop\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.runtimeconfig.dev.json
+C:\Users\Priscilla\Desktop\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.dll
+C:\Users\Priscilla\Desktop\EventPlanner2\bin\Debug\netcoreapp1.1\EventPlanner2.pdb
+C:\Users\Priscilla\Desktop\EventPlanner2\obj\Debug\netcoreapp1.1\EventPlanner2.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Desktop\EventPlanner2\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\Priscilla\Desktop\EventPlanner2\obj\Debug\netcoreapp1.1\EventPlanner2.AssemblyInfo.cs
+C:\Users\Priscilla\Desktop\EventPlanner2\obj\Debug\netcoreapp1.1\EventPlanner2.dll
+C:\Users\Priscilla\Desktop\EventPlanner2\obj\Debug\netcoreapp1.1\EventPlanner2.pdb

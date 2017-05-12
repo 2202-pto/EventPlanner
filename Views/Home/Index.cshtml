@@ -1,0 +1,80 @@
+﻿@model IEnumerable<EventPlanner2.Models.Event>
+
+@{
+    ViewBag.Title = "Index";
+    SelectList eTypelist = ViewBag.EventTypeSelectList;
+}
+
+<h2>Index</h2>
+<a asp-action="index" class="btn btn-default" asp-controller="eventtype">Add Event type</a>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EventDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+        </th>
+        <th>
+            <form method="post" id="filter" action="@Url.Action("Index", "Home")">
+                @Html.DropDownList("eTypeFilter", eTypelist, "All", new { @class = "form-control", @style = "width: 16rem; display:inline-block" })
+            </form>
+        </th>
+        <th>
+            @Html.ActionLink("Create New", "Create", "Event", null, new { @class = "btn btn-primary" })
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventType.Label)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+@section scripts
+{
+    <script>
+$(document).ready(function(){
+    $("#eTypeFilter").change(function () {
+        $("#filter").submit();
+    });
+});
+    </script>
+}
